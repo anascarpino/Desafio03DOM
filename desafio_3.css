@@ -1,0 +1,104 @@
+html
+{
+	background: #fff;
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	padding: 10px;
+	margin: 0 auto;
+	width: 900px;
+	border-left:1px solid #ddd;
+	border-right:1px solid #ddd;
+	background:#efefef;
+	font-family: Sans-serif, Verdana, Courier;
+}
+
+/*============ DESAFIO =============*/
+#desafio, #desafio p
+{
+	margin: 0;
+	padding: 3px 5px 10px 5px;
+	-webkit-border-radius: 5px;
+	background: #4E6F9E;
+	color: #fff;
+}
+#desafio code
+{
+	background: #888;
+	-webkit-border-radius:3px;
+	padding:0 3px;
+}
+
+/*============CONTEUDO=============*/
+#content
+{
+	background: #fff;
+	border:1px solid #bbb;
+	padding: 10px;
+}
+#control
+{
+	border: 1px solid #eee;
+	margin: 0 4px;
+	-webkit-border-radius: 5px;
+	background: #efefff;
+	text-align: center;
+}
+
+/*==========PISCINA================*/
+#pool
+{
+	width: 720px;
+	margin: 20px auto;
+	height: 400px;
+	-webkit-border-radius: 20px;
+	padding: 20px;
+	background: #b2d9f4;
+	overflow: hidden;
+}
+.thing
+{
+	-webkit-border-radius: 5px;
+	-webkit-box-shadow: 0px 2px 5px #aaa;
+	margin: 3px;
+	padding: 10px;
+	float: left;
+	background: silver;
+}
+.thing a
+{
+	background: #222;
+	color:#fff;
+	-webkit-border-radius: 3px;
+	text-decoration: none;
+	padding: 3px;
+}
+
+.new
+{
+	-webkit-border-radius: 5px;
+	-webkit-box-shadow: 0px 2px 5px #aaa;
+	margin: 3px;
+	padding: 10px;
+	float: left;
+	background: silver;
+}
+.new a
+{
+	background: #222;
+	color:#fff;
+	-webkit-border-radius: 3px;
+	text-decoration: none;
+	padding: 3px;
+}
+
+/*============+FOOTER==============*/
+address
+{
+	margin: 30px 0 0 0;
+	font-size: 0.8em;
+	color: #555;
+	text-align: center;
+}

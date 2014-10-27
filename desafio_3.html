@@ -1,0 +1,41 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="pt-BR">
+	<link rel="stylesheet" href="desafio_3.css" type="text/css">
+   	<title>Controle de Propagação</title>
+   	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<script src="jquery-1.2.2.pack.js" type="text/javascript"></script>
+	<script src="jquery-ui.js" type="text/javascript"></script>
+   	<div id="desafio">
+	   	<h3>Piscina de Coisas Comportamentais</h3>
+	   	<p>Na piscina abaixo, deverão ser criados nós iguais ao template sempre que o botão "Adicionar" for clicado.
+	   	E o botão remover todos limpa a piscina.<br>
+	   	Quando um nó for adicionado, o <code>&lt;body&gt;</code> deve informar na <code>&lt;div id="info"&gt;</code> a mensagem:
+	   	"a piscina contém X coisas.", onde X é o número de coisas que a psicina tem.<br>
+	   	Caso os nós sejam removidos, o <code>&lt;body&gt;</code> não deve atualizar a info.
+	   	</p>
+	   	<p>
+	   		As coisas da piscina tem um botão "color" que ao ser clicado deve escolher uma cor aleatória para o elemento.<br>
+	   		E o link remover apaga a coisa específica da piscina.
+	   	</p>
+	   	<p>
+	   		Tudo isso deve ser implementado com apenas <strong>3</strong> "Listeners".
+	   	</p>
+   	</div>
+	<h1>Site com Behaviour</h1>
+	<div id="info">&nbsp;
+	</div>
+	<div id="content">
+		<div id="control">
+			<button id="add">Adicionar</button><button id="del">Remover todos</button>
+		</div>
+		<div id="pool">
+			<div class="thing"><button id="color">color</button> <a href="#">remover</a></div>		
+		</div>
+	</div>
+   	
+	<address>
+		Para entrar em contato utilize: <a href="mailto:web@email.com">web@email.com</a>
+	</address>
+<script src="desafio_3.js" type="text/javascript"></script>
+
